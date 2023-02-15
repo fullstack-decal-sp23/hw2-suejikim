@@ -20,6 +20,16 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+.label {
+  color: pink;
+  transition: transform 0.5s 0.25s ease; 
+}
+
+.label:hover {
+  color: olivedrab;
+  transition: scale(5.5);
+}
+
 .flag {
   height: 300px;
   width: 500px;
@@ -29,13 +39,17 @@ h2 {
 
 .twovert {
   height: 50%;
+  width: 100%;
 }
 
 .threevert {
+  height: 33.3%;
+  width: 100%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 33.33%;
+  height: 100%;
 }
 
 .narrow {
@@ -63,6 +77,10 @@ h2 {
   background-color: orange;
 }
 
+.red {
+  background-color: #F6343F;
+}
+
 .yellow {
   background-color: yellow;
 }
@@ -75,15 +93,15 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
-  background-color: lightblue;
+.light-blue {
+  background-color: #00A2E1
 }
 
 .purple {
   background-color: purple;
 }
 
-.white {
+#white {
   background-color: #fff;
 }
 
@@ -94,15 +112,18 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 50px;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 50px;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 100px;
 }
 
 /* END QUESTION 2 */
@@ -129,7 +150,10 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  max-height: 100%;
+  max-width: 25%;
+  align-self: center;
+  margin: 21px;
 }
 
 .mexico-red {
@@ -149,17 +173,20 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
