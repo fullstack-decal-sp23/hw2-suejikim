@@ -21,13 +21,13 @@ h2 {
 /* You may also have to implement your own classes */
 
 .label {
-  color: pink;
+  color: red;
   transition: transform 0.5s 0.25s ease; 
 }
 
 .label:hover {
   color: olivedrab;
-  transition: scale(5.5);
+  font-size: 150%;
 }
 
 .flag {
